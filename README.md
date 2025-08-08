@@ -69,7 +69,7 @@ A simple and efficient solution to manage EV charging infrastructure.
 | Login                 | Enter username, password, and select role |
 | Booking               | Browse stations and book available slots  |
 | Payment               | Choose to pay the amount calculated at the time of booking or later |
-| Admin Management      | Add/edit/delete stations, slots, and users|
+| Admin Panel           | Add/edit/delete stations, slots, and users|
 | Logout                | Exit current session                       |
 
 ---
