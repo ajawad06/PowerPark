@@ -50,5 +50,14 @@ A simple and efficient solution to manage EV charging infrastructure.
 
 ### Database Setup  
 1. Create the database:  
-```sql
+\`\`\`sql
 CREATE DATABASE powerpark;
+\`\`\`
+2. Run the SQL scripts in \`database/\` folder to create tables and insert sample data.
+
+3. Update \`config.properties\` (not committed to Git) with your DB credentials:  
+\`\`\`
+db.url=jdbc:mysql://localhost:3306/powerpark?useSSL=false&serverTimezone=UTC
+db.user=root
+db.password=your_password_here
+\`\`\`
