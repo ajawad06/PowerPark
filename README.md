@@ -50,14 +50,38 @@ A simple and efficient solution to manage EV charging infrastructure.
 
 ### Database Setup  
 1. Create the database:
-```bash 
-CREATE DATABASE powerpark;
-```
+     ```bash 
+        CREATE DATABASE powerpark;
+      ```
 2. Run the SQL scripts in **database** folder to create tables and insert sample data.
 
 3. Update **config.properties** (not committed to Git) with your DB credentials:
-   ```bash
+     ```bash
       db.url=jdbc:mysql://localhost:3306/powerpark?useSSL=false&serverTimezone=UTC
       db.user=root
       db.password=your_password_here
-```
+      ```
+     
+## 🎮 Application Controls
+
+| Action                | Description                                |
+|-----------------------|--------------------------------------------|
+| Login                 | Enter username, password, and select role |
+| Booking               | Browse stations and book available slots  |
+| Payment               | Choose to pay the amount calculated at time of booking or later |
+| Admin Management      | Add/edit/delete stations, slots, and users|
+| Logout                | Exit current session                       |
+
+---
+
+## 📢 Notes  
+- The **config.properties** file is ignored by Git for security — create your own copy locally.  
+- Make sure MySQL server is running before starting the app.  
+- This project uses JavaFX 17 and Maven for dependency management.
+
+---
+
+## 🤝 Contributing  
+Feel free to submit issues or pull requests for improvements!
+
+---
