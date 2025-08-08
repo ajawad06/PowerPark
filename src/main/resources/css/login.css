@@ -1,0 +1,40 @@
+.root {
+    -fx-font-family: 'Segoe UI', sans-serif;
+}
+
+.button {
+    -fx-background-color: #28a745;
+    -fx-background-radius: 30;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0.3, 0, 1);
+}
+
+.button:hover {
+    -fx-background-color: #218838;
+}
+
+.text-field, .password-field {
+    -fx-background-radius: 30;
+    -fx-padding: 5 15 5 15;
+    -fx-background-color: #f0f0f0;
+}
+
+.radio-button {
+    -fx-text-fill: white;
+}
+
+.label {
+    -fx-text-fill: white;
+}
+
+#showMsgLabel {
+    -fx-text-fill: red;
+}
+
+#welcome-label {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}

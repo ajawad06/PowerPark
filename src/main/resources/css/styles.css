@@ -1,0 +1,19 @@
+.table-view {
+    -fx-control-inner-background: #002200; /* table background */
+    -fx-background-color: transparent;
+    -fx-table-cell-border-color: #00ff00;
+    -fx-text-fill: #00ff00;
+}
+
+.table-row-cell {
+    -fx-background-color: #002200;
+    -fx-text-fill: #00ff00;
+}
+
+.table-cell {
+    -fx-text-fill: #00ff00;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #004400;
+}

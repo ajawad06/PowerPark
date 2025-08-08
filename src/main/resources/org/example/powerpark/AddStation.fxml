@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="505.0" prefWidth="640.0" style="-fx-background-color: Black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.powerpark.controller.AddStationController">
+   <children>
+      <Label layoutX="42.0" layoutY="35.0" prefHeight="54.0" prefWidth="118.0" text="Add Station" textFill="GREEN">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="BackBtn" layoutX="485.0" layoutY="35.0" mnemonicParsing="false" onAction="#previousScreen" prefHeight="42.0" prefWidth="118.0" style="-fx-background-radius: 100; -fx-background-color: green;" text="Back" textFill="#f4f1f1">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Line endX="453.4000244140625" endY="-17.600006103515625" layoutX="145.0" layoutY="124.0" startX="-99.39999389648438" startY="-17.600006103515625" stroke="GREEN" />
+      <Button fx:id="AddStationBtn" layoutX="263.0" layoutY="427.0" mnemonicParsing="false" onAction="#addStation" prefHeight="34.0" prefWidth="118.0" style="-fx-background-radius: 100; -fx-background-color: green;" text="Add" textFill="#f4f1f1">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Button>
+      <Label layoutX="207.0" layoutY="145.0" prefHeight="22.0" prefWidth="46.0" text="Name:" textFill="GREEN">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="207.0" layoutY="185.0" prefHeight="22.0" prefWidth="66.0" text="Location:" textFill="GREEN">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="207.0" layoutY="229.0" prefHeight="22.0" prefWidth="66.0" text="Latitude:" textFill="GREEN">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="205.0" layoutY="317.0" prefHeight="22.0" prefWidth="104.0" text="Charger-Type:" textFill="GREEN">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="274.0" prefHeight="22.0" prefWidth="83.0" text="Longitude:" textFill="GREEN">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="203.0" layoutY="362.0" prefHeight="22.0" prefWidth="83.0" text="Total Slots:" textFill="GREEN">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="nameField" alignment="CENTER" layoutX="328.0" layoutY="144.0" promptText="enter station name" style="-fx-background-radius: 100;" />
+      <TextField fx:id="slotsField" alignment="CENTER" layoutX="328.0" layoutY="361.0" promptText="enter total slots" style="-fx-background-radius: 100;" />
+      <TextField fx:id="chargerField" alignment="CENTER" layoutX="328.0" layoutY="317.0" promptText="enter charger type" style="-fx-background-radius: 100;" />
+      <TextField fx:id="longField" alignment="CENTER" layoutX="328.0" layoutY="273.0" promptText="enter longitude" style="-fx-background-radius: 100;" />
+      <TextField fx:id="latField" alignment="CENTER" layoutX="328.0" layoutY="228.0" promptText="enter latitude" style="-fx-background-radius: 100;" />
+      <TextField fx:id="LocField" alignment="CENTER" layoutX="328.0" layoutY="185.0" promptText="enter location" style="-fx-background-radius: 100;" />
+   </children>
+</AnchorPane>
