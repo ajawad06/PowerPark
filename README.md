@@ -25,7 +25,7 @@ A simple and efficient solution to manage EV charging infrastructure.
 ---
 
 ## 📂 Project Structure  
-\`\`\`
+cat << 'EOF'
 .
 ├── src/
 │   ├── main/
@@ -36,4 +36,5 @@ A simple and efficient solution to manage EV charging infrastructure.
 ├── pom.xml                                  # Maven project configuration
 ├── mvnw / mvnw.cmd                          # Maven wrapper scripts
 ├── README.md                                # Project documentation
-\`\`\`
+EOF
+
