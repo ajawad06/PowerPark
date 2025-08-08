@@ -25,13 +25,30 @@ A simple and efficient solution to manage EV charging infrastructure.
 ---
 
 ## 📂 Project Structure  
-.
+```bash
+  .
 ├── src/
-│ ├── main/
-│ │ ├── java/org/example/powerpark/ # Java source code (controllers, models, db)
-│ │ └── resources/ # FXML, config.properties (ignored), images
-├── database/ # SQL scripts for schema and sample data
-├── .gitignore # Git ignore file
-├── pom.xml # Maven project configuration
-├── mvnw / mvnw.cmd # Maven wrapper scripts
-└── README.md # Project documentation
+│   ├── main/           #
+│         ├── java/org/example/powerpark        # java source code i.e. model, business logic etc.
+│         └── resources/         # fxml,images,css,config-properties
+│
+├── database     # SQL scripts for schema and data
+├── .gitignore                  # git ignore file
+├── pom.xml    # Maven project configuration
+├── mvnw / mvnw.cmd     # Maven wrapper scripts
+└── README.md
+```
+---
+
+## ⚙️ Development Setup
+
+### Prerequisites  
+- JDK 17 or newer  
+- Maven 3.8+  
+- MySQL server installed and running  
+- IDE (IntelliJ IDEA recommended) with JavaFX support  
+
+### Database Setup  
+1. Create the database:  
+```sql
+CREATE DATABASE powerpark;
