@@ -36,5 +36,4 @@ Thumbs.db
 # Maven/Gradle
 target/
 
-# Ignore config with DB credentials
-resources/config.properties
+/src/main/resources/config.properties
