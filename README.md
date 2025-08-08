@@ -25,16 +25,13 @@ A simple and efficient solution to manage EV charging infrastructure.
 ---
 
 ## 📂 Project Structure  
-cat << 'EOF'
 .
 ├── src/
-│   ├── main/
-│   │   ├── java/org/example/powerpark/       # Java source code (controllers, models, db)
-│   │   └── resources/                        # FXML, config.properties (ignored), images
-├── database/                                # SQL scripts for schema and sample data
-├── .gitignore                               # Git ignore file
-├── pom.xml                                  # Maven project configuration
-├── mvnw / mvnw.cmd                          # Maven wrapper scripts
-├── README.md                                # Project documentation
-EOF
-
+│ ├── main/
+│ │ ├── java/org/example/powerpark/ # Java source code (controllers, models, db)
+│ │ └── resources/ # FXML, config.properties (ignored), images
+├── database/ # SQL scripts for schema and sample data
+├── .gitignore # Git ignore file
+├── pom.xml # Maven project configuration
+├── mvnw / mvnw.cmd # Maven wrapper scripts
+└── README.md # Project documentation
