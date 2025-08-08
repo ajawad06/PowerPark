@@ -24,6 +24,12 @@ A simple and efficient solution to manage EV charging infrastructure.
 
 ---
 
+## 🧱 Object-Oriented Design
+
+This project follows core OOP principles including encapsulation, inheritance, polymorphism, and abstraction to create a clean, modular, and maintainable codebase. Different entities like users, admins, stations, and bookings are represented as classes with clear responsibilities.
+
+---
+
 ## 📂 Project Structure  
 ```bash
   .
@@ -61,7 +67,9 @@ A simple and efficient solution to manage EV charging infrastructure.
       db.user=root
       db.password=your_password_here
       ```
-     
+
+--- 
+
 ## 🎮 Application Controls
 
 | Action                | Description                                |
