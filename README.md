@@ -28,14 +28,14 @@ A simple and efficient solution to manage EV charging infrastructure.
 ```bash
   .
 ├── src/
-│   ├── main/           #
-│         ├── java/org/example/powerpark        # java source code i.e. model, business logic etc.
-│         └── resources/         # fxml,images,css,config-properties
+│   ├── main/           
+│         ├── java/org/example/powerpark     # java source code i.e. model, business logic etc.
+│         └── resources/                     # fxml,images,css,config-properties
 │
-├── database     # SQL scripts for schema and data
-├── .gitignore                  # git ignore file
-├── pom.xml    # Maven project configuration
-├── mvnw / mvnw.cmd     # Maven wrapper scripts
+├── database               # SQL scripts for schema and data
+├── .gitignore             # git ignore file
+├── pom.xml                # Maven project configuration
+├── mvnw / mvnw.cmd        # Maven wrapper scripts
 └── README.md
 ```
 ---
@@ -68,7 +68,7 @@ A simple and efficient solution to manage EV charging infrastructure.
 |-----------------------|--------------------------------------------|
 | Login                 | Enter username, password, and select role |
 | Booking               | Browse stations and book available slots  |
-| Payment               | Choose to pay the amount calculated at time of booking or later |
+| Payment               | Choose to pay the amount calculated at the time of booking or later |
 | Admin Management      | Add/edit/delete stations, slots, and users|
 | Logout                | Exit current session                       |
 
