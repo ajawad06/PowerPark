@@ -15,7 +15,8 @@ A simple and efficient solution to manage EV charging infrastructure.
 
 ## 🎯 Features  
 - User login & role-based access (Admin, User)  
-- Real-time charging station availability & slot booking and payment 
+- Real-time charging station availability & slot booking
+- Cost calculation of booking using current vs desired battery levels & payment for slot. 
 - Admin dashboard for managing stations, slots, and users  
 - Booking history & recent bookings table  
 - Responsive JavaFX UI with FXML  
