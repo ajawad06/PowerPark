@@ -70,23 +70,22 @@ This project follows core OOP principles including encapsulation, inheritance, p
       ```
      
 ### Build & Run  
-1. Clone the repo:  
-\`\`\`bash
-git clone https://github.com/ajawad06/PowerPark.git
-cd PowerPark
-\`\`\`
+1. Clone the repo:
+     ```bash
+      git clone https://github.com/ajawad06/PowerPark.git
+      cd PowerPark
+    ```
 
-2. Build with Maven:  
-\`\`\`bash
-./mvnw clean package
-\`\`\`
+3. Build with Maven:  
+    ```bash
+      ./mvnw clean package
+    ```
 
-3. Run the app (example):  
-\`\`\`bash
-./mvnw javafx:run
-\`\`\`
+4. Run the app (example):  
+   ```bash
+    ./mvnw javafx:run
+    ```
 
----
 --- 
 
 
