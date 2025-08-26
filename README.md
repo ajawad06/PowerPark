@@ -68,8 +68,27 @@ This project follows core OOP principles including encapsulation, inheritance, p
       db.user=root
       db.password=your_password_here
       ```
+     
+### Build & Run  
+1. Clone the repo:  
+\`\`\`bash
+git clone https://github.com/ajawad06/PowerPark.git
+cd PowerPark
+\`\`\`
 
+2. Build with Maven:  
+\`\`\`bash
+./mvnw clean package
+\`\`\`
+
+3. Run the app (example):  
+\`\`\`bash
+./mvnw javafx:run
+\`\`\`
+
+---
 --- 
+
 
 ## 🎮 Application Controls
 
